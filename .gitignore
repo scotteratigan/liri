@@ -12,3 +12,6 @@ node_modules/
 # More good stuff to ignore:
 node_modules
 .env
+# Folder specific to this project:
+songs/
+log.txt

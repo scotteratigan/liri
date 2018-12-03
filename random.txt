@@ -1,1 +1,1 @@
-spotify-this-song,"I Want it That Way"
+play-this-song,"I Want it That Way"

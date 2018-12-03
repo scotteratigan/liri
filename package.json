@@ -1,29 +1,36 @@
 {
   "name": "liri",
   "version": "1.0.0",
-  "description": "LIRI is a _Language_ Interpretation and Recognition Interface. LIRI is a command line node app that takes n parameters and gives you back data.",
+  "description": "Command line multi-API search tool",
   "main": "liri.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node liri"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/scotteratigan/liri.git"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": [
+    "Spotify",
+    "Axios",
+    "Moment",
+    "Play-Sound",
+    "BandsInTown",
+    "OMDB",
+    "LIRI",
+    "DotEnv"
+  ],
+  "author": "Scott Ratigan",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/scotteratigan/liri/issues"
   },
   "homepage": "https://github.com/scotteratigan/liri#readme",
   "dependencies": {
-    "audio-loader": "^1.0.3",
-    "audio-play": "^2.2.1",
     "axios": "^0.18.0",
     "dotenv": "^6.1.0",
     "moment": "^2.22.2",
     "node-spotify-api": "^1.0.7",
-    "spotify": "^0.3.0"
+    "play-sound": "^1.1.2"
   }
 }
